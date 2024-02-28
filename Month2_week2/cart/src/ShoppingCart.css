@@ -1,0 +1,65 @@
+.shopping-cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #fff; /* Set background to white */
+}
+
+/* .form-container {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container label {
+  margin-bottom: 200px;
+} */
+
+.cart-section {
+  margin-top: 30px;
+}
+.bet{
+  justify-content: space-around;
+}
+button {
+  background-color: blue; /* Set button background to blue */
+  color: #000; /* Set button text color to black */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0,0,0,13.2em); /* Apply text shadow for buttons */
+}
+
+button[type="submit"] {
+  margin-top: 10px; /* Adjust submit button margin */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5); /* Apply text shadow for table */
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  color: #000; /* Set text color to black */
+}
+
+th {
+  background-color: #f2f2f2; /* Set header background to light gray */
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: #000; /* Set text color to black */
+}
