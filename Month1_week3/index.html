@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+  
+    <h1 style='text-align: center;'>TO DO LIST</h1>
+
+    <!-- Section to add -->
+    <div>
+      <h2>Add New Task</h2>
+      <input type="text" id="Todo" placeholder="Enter task" />
+      <button class="btn">Submit</button>
+      <div class="lists">Your todo lists are:</div>
+      <hr>
+    </div>
+
+    <!-- Section to delete -->
+    <div>
+      <h2>Delete Task</h2>
+      <p>Enter the task you want to delete</p>
+      <input type="text" class="deleted_txt" placeholder="Task to delete" />
+      <button class="del">Delete</button>
+      <hr>
+    </div>
+
+    <!-- Section to edit -->
+    <div>
+      <h2>Edit Task</h2>
+      <p>Enter the index of the task you want to edit</p>
+      <input type="number" class="index" placeholder="Task index" />
+      <button class="idxnum">Submit</button>
+      <p>Enter the new edited text</p>
+      <input type="text" id="edittxt" placeholder="New text" />
+      <button class="editbtn">Edit</button>
+      <hr>
+    </div>
+  </div>
+  <script src="ToDoList.js" defer></script>
+</body>
+</html>
